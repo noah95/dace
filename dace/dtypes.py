@@ -17,6 +17,7 @@ class DeviceType(aenum.AutoNumberEnum):
     CPU = ()  #: Multi-core CPU
     GPU = ()  #: GPU (AMD or NVIDIA)
     FPGA = ()  #: FPGA (Intel or Xilinx)
+    Snitch = ()  #: FPGA (Intel or Xilinx)
 
 
 @extensible_enum

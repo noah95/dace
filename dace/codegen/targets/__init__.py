@@ -1,5 +1,6 @@
 # Copyright 2019-2021 ETH Zurich and the DaCe authors. All rights reserved.
 from .cpu import CPUCodeGen
+from .snitch import SnitchCodeGen
 from .cuda import CUDACodeGen
 from .intel_fpga import IntelFPGACodeGen
 from .mpi import MPICodeGen
